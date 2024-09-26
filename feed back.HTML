@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yoga Meditation Class Feedback Survey</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-image:url(https://img.freepik.com/premium-photo/woman-meditating-yoga-mat-with-sun-setting-her_865967-43275.jpg) ;
+      background-repeat: no-repeat;
+      background-size:700px ;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Yoga Meditation Class Feedback Survey</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="class-date">Class Date:</label>
+      <input type="date" id="class-date" name="class-date"><br><br>
+
+      <label for="instructor">Instructor:</label>
+      <select id="instructor" name="instructor">
+        <option value="">Select Instructor</option>
+        <option value="Instructor 1">Instructor 1</option>
+        <option value="Instructor 2">Instructor 2</option>
+        <option value="Instructor 3">Instructor 3</option>
+      </select><br><br>
+
+      <label for="class-type">Class Type:</label>
+      <select id="class-type" name="class-type">
+        <option value="">Select Class Type</option>
+        <option value="Hatha Yoga">Hatha Yoga</option>
+        <option value="Vinyasa Flow">Vinyasa Flow</option>
+        <option value="Restorative Yoga">Restorative Yoga</option>
+        <option value="Meditation">Meditation</option>
+      </select><br><br>
+
+      <label for="rating">Rating (1-5):</label>
+      <input type="number" id="rating" name="rating" min="1" max="5"><br><br>
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments"></textarea><br><br>
+
+      <input type="submit" value="Submit Feedback">
+    </form>
+  </div>
+</body>
+</html>
